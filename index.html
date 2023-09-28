@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Smash Bros. Wordle</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href = "style.css" type = "text/css" rel ="stylesheet">
+        <script src = "script.js" defer></script>
+        <link rel = "icon" href = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SmashBall.svg/1200px-SmashBall.svg.png">
+    </head>
+    <body>
+        <div id = "Header" class = "title">Smash Bros. Wordle</div>
+        <div id = "GameSpace">
+            <button id = "GameButton" onclick="playGame()">Play Game</button>
+
+            <form id="PlayerSearch" onsubmit="acceptGuess()">
+            </form>
+            
+            <div id = "ResultSpace">
+                <div id = "labelRow" class = "labelRow"></div>
+               
+                <div id = "guesses" class = "guesses"></div>
+            </div>
+
+
+        </div>
+        
+
+    </body>
+</html>

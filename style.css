@@ -1,0 +1,330 @@
+.bad {
+    color: rgb(255, 0, 51);
+}
+
+.ok {
+    color: rgb(255, 140, 0);
+}
+
+.good {
+    color: rgb(182, 185, 0);
+}
+
+.great {
+    color:limegreen;
+}
+
+.row {
+width: 90%;
+margin-top: 1%;
+margin-left: 5%;
+}
+.app {
+    
+    padding: 2%;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#newPokeSprite {
+    margin-right: 1.5%;
+}
+
+#pokeDisplay {
+    filter:drop-shadow(5px 5px 4px slateblue)
+}
+
+#interactive {
+    margin-left: 10%;
+    position: relative;
+    float:left;
+    width: 90%
+}
+
+#about {
+    margin-top: 2%;
+    color:darkblue;
+    border:dotted darkslategray 2px;
+    border-radius: 4px; 
+    padding: 1%;
+    background-color: rgb(207, 207, 207);
+}
+
+.rainbowText {
+    background: linear-gradient(90deg, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2b, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d4ff, #0af, #007fff, #05f, #002bff, #00f, #2a00ff, #50f, #7f00ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.header {
+    background-color: rgb(199, 199, 199);
+    width: 500px;
+    padding: 0.5%;
+    border-style:hidden;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-color: rgb(180, 180, 180);
+    border-style: solid;
+}
+
+#buttons {
+    padding: 1%;
+}
+
+#buttons button {
+    margin: 0.5%;
+    width: 65px;
+    transition-duration: 0.4s;
+    border: 2px solid rgb(0, 97, 8);
+    border-radius: 4px;
+}
+
+#buttons button:hover {
+    background-color: rgb(0, 97, 8);
+    color: white;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 1
+    15%;
+}
+
+.col-sm button {
+
+    border-radius: 20px;
+    transition-duration: 0.4s;
+
+}
+
+.col-sm button:hover {
+
+    border-radius: 20px;
+    background-color: greenyellow;
+    
+}
+
+.index {
+    margin-left: 2%;
+    margin-top: 0%;
+    position:fixed;
+    background-color: rgb(231, 231, 231);
+    width: 96.25%;
+    border-radius: 10px;
+    padding: 0.5%;
+    z-index: 1;
+    -webkit-transition:  1s;
+    -moz-transition: 1s;
+    -ms-transition:  1s;
+    -o-transition:1s;
+    transition: 1s;
+}
+
+.index:hover {
+    background-color: rgb(0, 48, 7);
+}
+
+.PlayerGuess{
+    width: 20%;
+    text-decoration: underline;
+    color:maroon;
+}
+
+.PlayerGuess:hover{
+    color:#002bff;
+}
+
+.PlayerGuessRes{
+    display: none;
+}
+
+.PlayerGuess:hover + .PlayerGuessRes{
+    display:block;
+    background-color: darkgray;
+    width: 20%;
+    position:absolute;
+    padding: 5px;
+    margin: auto;
+}
+
+.buttonVanish{
+    display: none;
+}
+
+.answerIcon {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.labelcolumn {
+    float: left;
+    width:fit-content;
+    margin-left: 2.5%;
+}
+
+.labelRow {
+    width: 95%;
+    height: 5%;
+    position: relative;
+}
+
+.guesses {
+    margin-top: 20px;
+    width: 95%; 
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 40%;
+}
+
+#PlayerSearch {
+    margin-left: 40%;
+}
+#GameButton {
+    margin-left: 45%;
+}
+
+.favPoke {
+    background-color: rgb(218, 218, 218);
+    border:1px black solid;
+    border-radius: 15px;
+    display: block;
+    width: 47.5%;
+    position: relative;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+}
+
+.favPoke #image {
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 12px;
+    width: 75%;
+    margin-left: 11.5%;
+}
+
+#serperior .pokeTitle {
+    color: rgb(0, 100, 0);
+}
+
+#minior .pokeTitle {
+    color: brown;
+}
+
+#comfey .pokeTitle {
+    color: rgb(180, 0, 99);
+}
+
+#chandelure .pokeTitle {
+    color: indigo;
+}
+
+.pokeTitle {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.pokeRow {
+    position: relative;
+    float: left;
+    width: 99%;
+}
+
+#pokeType {
+    width: 15%;
+    position: relative;
+    float: right;
+}
+.types {
+    width: 90%;
+    margin-right: 5%;
+}
+.stats {
+    margin-left: 2%;
+    width: 50%;
+    border-radius: 10px;
+    border: black 2px solid;
+    padding-left: 4%;
+    background-color: rgb(231, 231, 231);
+}
+
+.favPoke button {
+    margin: 0.5%;
+    width: 65px;
+    transition-duration: 0.4s;
+    border: 2px solid rgb(0, 97, 8);
+    border-radius: 4px;
+}
+
+.favPoke button:hover {
+    background-color: rgb(0, 97, 8);
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .col-sm button {
+        width: 75%;
+        
+    }
+    .col-sm img {
+        width: 75%
+    }
+
+   
+}
+
+@media (max-width: 575px) {
+    .col-sm button {
+        width: 25%;
+    }
+    .col-sm img {
+        width: 25%
+    }
+
+    .row {
+        margin-left: 35%;
+    }
+
+}
+
+@media (min-width: 880px) {
+    #pokeSpriteType {
+        width: 5%;
+    }
+    
+    #newPokeSprite {
+        width: 8%;
+    }
+}
+
+@media (max-width: 879px) and (min-width: 500px) {
+
+    #pokeSpriteType {
+        width: 10%;
+    }
+    
+    #newPokeSprite {
+        width: 16%;
+    }
+}
+
+@media (max-width: 499px) {
+    
+    #pokeSpriteType {
+        width: 20%;
+    }
+    
+    #newPokeSprite {
+        width: 25%;
+    }
+}
